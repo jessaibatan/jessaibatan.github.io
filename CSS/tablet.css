@@ -1,0 +1,69 @@
+/*headings*/
+.headings{
+    font-size: 2.4rem;
+}
+.footer{
+    height: 70;
+}
+/*media queries navbar*/
+@media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  
+/*About*/
+@media screen and(max-width: 1180px) {
+  .about{
+      width: 100%;
+      height: auto;
+      padding: 70px 0px;
+  }
+}
+
+/* media queries profile*/
+@media screen and (max-width: 575px) {
+    .card {
+        width: 96%;
+    }
+  
+    .card .card-body {
+        padding: 10px 20px;
+    }
+  
+    .card .card-footer .col {
+        padding: 0 10px;
+    }
+  
+    .card .card-footer .count {
+        display: block;
+        margin-bottom: 5px;
+    }
+  }
+  
+  /*SKILLS*/
+.cards{
+    max-width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+  }
+/* career */
+@media screen and(max-width: 1180px) {
+    .career{
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+/* projects*/
+@media screen and (max-width:991px) {
+    .gallery{
+      column-count:2;
+    }
+    
+  }
