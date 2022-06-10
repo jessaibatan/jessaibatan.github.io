@@ -1,5 +1,4 @@
 # jessaibatan.github.io
-type kan 
-ilove you
+Responsive Portfolio ang ganda ko :)
 
-:)
+hehe
