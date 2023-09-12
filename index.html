@@ -30,7 +30,7 @@
             <h5>Hello!</h5>
             <h1>Welcome to my Portfolio</h1>
             <p>I'm <span class="name">Jessa Ibatan,</span>  a passionate web developer eager to expand my IT skills. </p>
-            <a href="#" class="cv-btn"><i class="fa-solid fa-download"></i></i>Check CV</a>
+            <a href="https://drive.google.com/file/d/1-Sn4f9HoES-MnffyY1dRi_v2GNtMbNds/view?usp=sharing" class="cv-btn"><i class="fa-solid fa-download"></i></i>Check CV</a>
         </div>
 
         <div class="home-img">
@@ -88,7 +88,7 @@
       
         <p>A 2D Isometric Role Playing Game genre that will easily lead newbies and interested individuals through the game—educating.</p>
         <br>
-        <a href="#" class="btn-github">CodeLink<i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/jessaibatan/Akumi-Github.git" class="btn-github">CodeLink<i class="fa-brands fa-github"></i></a>
 
     </div>
     </div>
@@ -101,7 +101,7 @@
        
         <p>The Schedule-Generator project, developed through a partnership between Accenture Training Academy and STI Global City, provides the functionality to construct schedules for various entities, which encompass professors, rooms, and others.</p>
         <br>
-        <a href="#" class="btn-github">CodeLink<i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/MisoS0up/Schedule-Generator.git " class="btn-github">CodeLink<i class="fa-brands fa-github"></i></a>
 
     </div>
 </section>
@@ -123,5 +123,24 @@
 <div class="footer">
     <p class="copyright">© 2023 Jessa Ibatan. All rights reserved.</p>
 </div>
+<!--js-->
+<script>
+    // Get all the anchor elements inside the list
+    var links = document.querySelectorAll('ul li a');
+
+    // Loop through the anchor elements
+    for (var i = 0; i < links.length; i++) {
+        // Add a click event listener to each anchor element
+        links[i].addEventListener('click', function(e) {
+            // Remove the "active" class from all anchor elements
+            for (var j = 0; j < links.length; j++) {
+                links[j].classList.remove('active');
+            }
+
+            // Add the "active" class to the clicked anchor element
+            this.classList.add('active');
+        });
+    }
+</script>
 </body>
 </html>

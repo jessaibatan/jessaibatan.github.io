@@ -47,6 +47,7 @@ nav ul li a{
     border-radius: 4px;
     
 }
+
 a.active, a:hover{
     background: var(--primary-color);
     transition: .5s;
@@ -273,6 +274,8 @@ span{
     nav ul li a{
         font-size: 16px;
     }
+    
+
 }
 @media (max-width: 858px) {
     .checkbtn{
