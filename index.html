@@ -1,52 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="pictures/PF_Logo_.png" type="image/x-icon">
-    <title>Home</title>
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" media="screen and (max-width:800px)" href="CSS/tablet.css">
-    <link rel="stylesheet" media="screen and (max-width:800px)" href="CSS/phone.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  </head>
-  <body>
+    <link rel="icon" href="img/JFI.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2191b7e8d0.js" crossorigin="anonymous"></script>
+    <title>JessaIbatan</title>
+</head>
+<body>
     <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">Portfolio</label>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a  href="about.html">About</a></li>
-        <li><a  href="profile.html">Profile</a></li>
-        <li><a  href="projects.html">Projects</a></li>
-        <li><a  href="contact.html">Contact</a></li>
-      </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <img src="img/JFI.png" alt="" class="logo" >
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
     </nav>
-      <!--Home-->
- 
-      <section class="home" id="home">
-        <div class="con">
-            <h3 data-text ="Hi I'm Jessa Ibatan" class="name">Hi I'm Jessa Ibatan</h3>
-            <p class="p1">Do the things you love and make yourself proud because you will see all the hardships blooming one day.</p>
+    
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h5>Hello!</h5>
+            <h1>Welcome to my Portfolio</h1>
+            <p>I'm <span class="name">Jessa Ibatan,</span>  a passionate web developer eager to expand my IT skills. </p>
+            <a href="#" class="cv-btn"><i class="fa-solid fa-download"></i></i>Check CV</a>
         </div>
-        <div class="image">
-            <img src="pictures/icon.png" alt="">
+
+        <div class="home-img">
+            <img src="img/home.png">
+
+        </div>
+    </section>
+<!--About-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img/About.png">
+    </div>
+    <div class="about-text">
+        <span>About me</span>
+        <h2>Hi there!</h2>
+        <p>I recently graduated with a BS in Information Technology, where I gained proficiency in Java, C#,
+             HTML/CSS, SQL, and Cisco. I'm eager to continue learning and strengthen my skills to make valuable
+              contributions to projects. </p>
+    </div>   
+</section>
+
+<!--skills-->
+<section class="skills" id="skills">
+    <h1>Skills</h1>
+    <div class="row">
+        <div class="con">
+            <img src="img/html (1).png">
+        </div>
+        <div class="con">
+            <img src="img/css.png">
+        </div>
+        <div class="con">
+            <img src="img/js.png">
+        </div>
+        <div class="con">
+            <img src="img/java.png">
+        </div>
+        <div class="con">
+            <img src="img/Csharp.png">
+        </div>
+        <div class="con">
+            <img src="img/design.png">
+        </div>
+    </div>
+</section>
+<!--Projects-->
+<section class="projects" id="projects">
+    <h1>Projects</h1>
+    <div class="container-proj">
+        <div class="proj-img">
+        <img src="img/akumi.png" alt="">
+    </div>
+        <div class="descript">
+        <h3>Akumi and the Forbidden Language </h3>
+      
+        <p>A 2D Isometric Role Playing Game genre that will easily lead newbies and interested individuals through the game—educating.</p>
+        <br>
+        <a href="#" class="btn-github">CodeLink<i class="fa-brands fa-github"></i></a>
+
+    </div>
+    </div>
+    <div class="container-proj">
+        <div class="proj-img">
+        <img src="img/schedule-generator.png" alt="">
+    </div>
+    <div class="descript">
+        <h3>Schedule Generator </h3>
+       
+        <p>The Schedule-Generator project, developed through a partnership between Accenture Training Academy and STI Global City, provides the functionality to construct schedules for various entities, which encompass professors, rooms, and others.</p>
+        <br>
+        <a href="#" class="btn-github">CodeLink<i class="fa-brands fa-github"></i></a>
+
+    </div>
+</section>
+<!--contacts-->
+<section class="contacts" id="contacts">
+    
+        <div class="contact-desc">
+            <h2>Contact</h2>
+            <p class="p-con">You can email or call me here...</p>
+            <p><i class="fa-solid fa-envelope"> </i> jessaibatan.021@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i> 09260761626</p>
+        </div>
+        <div class="contact-img">
+            <img src="img/contact.png" alt="" width="150" height="100">
         </div>
        
-    </section>
-   
-    <!--footer-->
-    <section class="footer">
-      <div class="social">
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> 
-        <a href="https://www.snapchat.com/"><i class="fab fa-snapchat"></i></a> 
-        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a> 
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> 
-      </div>
-      <p class="copyright">Made by Jessa Ibatan ❤ @ 2022</p>
-    </section>
-  </body>
+</section>
+<!--footer-->
+<div class="footer">
+    <p class="copyright">© 2023 Jessa Ibatan. All rights reserved.</p>
+</div>
+</body>
 </html>
